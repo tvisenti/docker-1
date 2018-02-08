@@ -1,0 +1,1 @@
+docker inspect `docker ps | grep nginx | colrm 13` | grep '"IPAddress":' | head -1
